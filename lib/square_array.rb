@@ -2,8 +2,9 @@ def square_array(array)
   counter = 0
   
   while array[counter] do
-    array.insert(counter, (array[counter] ** 2))
+    array[counter] ** 2
     puts array[counter]
+    return array[counter]
     counter += 1
   end
 end
