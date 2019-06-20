@@ -13,4 +13,3 @@ end
 
 array = [1,2,3,4]
 puts square_array(array)
-puts square(array)
