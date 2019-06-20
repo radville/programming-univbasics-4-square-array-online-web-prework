@@ -5,6 +5,7 @@ def square_array(array)
     square = Array.new(array.length)
     square[counter] = (array[counter] ** 2)
     counter += 1
+    square
   end
   square
 end
