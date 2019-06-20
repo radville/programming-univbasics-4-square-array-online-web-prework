@@ -10,4 +10,5 @@ end
 
 
 array = [1,2,3,4]
+array
 square_array(array)
